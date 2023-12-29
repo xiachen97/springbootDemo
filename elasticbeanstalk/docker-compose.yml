@@ -1,0 +1,8 @@
+#https://docs.docker.com/compose/features-uses/
+version: "3.8"
+services:
+  backend:
+    image: "xia888/springboot-react-fullstack:latest"
+    ports:
+      - "80:8080"
+    restart: "always"
